@@ -1,0 +1,602 @@
+body {
+  overflow-x: hidden !important;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-toggler {
+  border: none;
+  margin-top: 25;
+}
+
+span.navbar-toggler-icon {
+  margin-top: 8 !important;
+  padding-top: 8;
+}
+
+.navbar.transparent.navbar-inverse .navbar-inner {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+#logo {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.media {
+  margin-right: 0 !important;
+  width: 100% !important;
+  white-space: nowrap;
+  padding-left: 0;
+  padding-right: 0;
+}
+/* 
+footer {
+  position: relative !important;
+  left: 0 !important;
+  bottom: 0 !important;
+  right: 0 !important;
+} */
+
+h1.landing-cta,
+h2.about-header {
+  color: white;
+  font-weight: 700;
+  font-weight: 3rem;
+  text-shadow: 1.85px 1.85px 2px darkred;
+}
+#landing-cta {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin: 1rem;
+}
+
+.headers {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.centeredLogo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.landingTopSection {
+  height: 610px;
+  margin: 0 !important;
+  background-image: url("../images/coderconnectbg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.bottomSection {
+  background-color: #f0ad4e;
+}
+
+.image {
+  width: 100%;
+  background-image: url("../images/landing-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.milservMedia {
+  height: 300px;
+  background-image: url("../images/codersinlounge.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+input.form-control.search-form {
+  color: #ffffff !important;
+}
+.memberLanding {
+  min-height: 650px;
+  width: 100%;
+  background-image: url("../images/coderconnectbg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-bottom: 3rem !important;
+}
+
+.aboutSections {
+  min-height: 300px;
+  color: #ffffff;
+  margin: 0;
+  padding-left: 45px;
+  padding-right: 35px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.about-header {
+  text-align: center !important;
+  justify-content: center !important;
+  display: inline;
+  align-items: center !important;
+}
+
+/* End About page */
+
+.bottom-logo-text {
+  font-size: 0.43rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: red !important;
+  position: absolute;
+  bottom: 0;
+  float: left;
+  left: 0;
+  margin-left: 3rem;
+}
+
+.listItems:hover,
+.nav-link:hover {
+  text-decoration: none !important;
+  background-color: none !important;
+  text-decoration-color: none !important;
+}
+
+/* .nav-link {
+
+} */
+
+.landingSectionTwo {
+  height: auto;
+  width: 100%;
+  margin: 0;
+  padding: 20px auto;
+  background-color: transparent !important;
+}
+
+.aboutSectionTwo {
+  height: auto;
+  /* width: 100%; */
+  margin: 0;
+  background-color: whitesmoke !important;
+}
+
+.program-your-career {
+  justify-content: center !important;
+  background-color: whitesmoke;
+}
+.centered {
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
+.learnMore:hover {
+  transform: scale(1.1);
+}
+
+.learnMoreBtn {
+  background-color: rgba(141, 84, 181, 0.85) !important;
+  color: whitesmoke !important;
+  font-size: 1.3rem;
+  font-weight: 500 !important;
+  transition: all 0.2s ease-in-out;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+
+.learnMoreBtn:hover {
+  transform: scale(1.08);
+}
+
+.navtoggler.collapse.show.navbar-collapse {
+  background-color: transparent !important;
+}
+
+/* Centered button on landing page other color  */
+.more {
+  color: #5bc0de !important;
+}
+
+.dropdown-toggle {
+  margin-right: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* Partner With Us Buttons on Landing Page */
+ul#horizontal-list {
+  list-style: none;
+  padding-left: 0;
+  padding-top: 20;
+}
+ul#horizontal-list li {
+  display: inline;
+}
+
+/* div.navtoggler {
+  z-index: 1000 !important;
+} */
+
+a:hover {
+  text-decoration: none;
+}
+
+#nprogress .bar {
+  height: 6px !important;
+}
+
+/* Muted text labels in manage categories and tags page */
+.catsTags {
+  font-size: 1.2rem;
+}
+/* Buttons color on category-tag.js file */
+.catBtns {
+  color: white !important;
+  background-color: #8d54b5 !important;
+  outline: none !important;
+}
+
+.catBtns:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.navbar {
+  padding-top: 0 !important;
+  padding-bottom: 1;
+  margin-top: 0 !important;
+  background-color: transparent !important;
+  color: #8d54b5 !important;
+}
+
+.navSearch {
+  background-color: transparent !important;
+  float: right;
+}
+
+/* 
+Media queries needed to prevent buttons from elongating in collapsible menu */
+.authBtns {
+  background-color: #8d54b5 !important ;
+  border-radius: 5px;
+  color: #ffffff;
+  margin: 2px;
+  display: inline-block;
+  padding: auto 1px;
+}
+
+/* .authBtns {
+  background-color: #5bc0de !important;
+  outline: none !important;
+  text-decoration: none !important;
+} */
+
+.navItems {
+  color: whitesmoke !important;
+  cursor: pointer !important;
+}
+
+/* Menu items in collapsible menu */
+.listItems {
+  color: #8d54b5 !important;
+  font-weight: 600;
+  margin: 0.75rem;
+  cursor: pointer;
+}
+.signout {
+  color: whitesmoke !important;
+  font-weight: 600;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.landingAuth {
+  color: whitesmoke !important;
+}
+
+.dropdown-menu {
+  background-color: #8d54b5 !important;
+  color: whitesmoke !important;
+}
+
+.dropdown-toggle {
+  padding: 0 !important;
+}
+
+button.dropdown-item {
+  color: #ffffff !important;
+}
+
+button.dropdown-item:hover {
+  background-color: rgba(0, 0, 0, 0.65) !important;
+  text-decoration: none;
+}
+
+span.navbar-toggler-icon {
+  /* color: whitesmoke !important; */
+  background-color: transparent !important;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.dropdowns-arrows {
+  margin-right: 5px !important;
+}
+
+.ql-editor {
+  min-height: 300px;
+}
+
+/* Landing Cards styles */
+.cardTitle {
+  color: #8d54b5;
+  font-weight: bolder;
+}
+
+.card {
+  margin: 0.5rem 0.5rem !important;
+  font-weight: bold !important;
+  height: auto !important;
+  padding-right: 10;
+  padding-left: 10;
+  min-width: 285px !important;
+  max-width: auto !important;
+  color: #ffffff !important;
+  border-radius: 1px !important;
+  position: relative !important;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out !important;
+  /* opacity: 0.75; */
+}
+
+.MuiIconButton-root,
+.MuiButtonBase-root {
+  padding-top: 5 !important;
+  padding-bottom: 5 !important;
+}
+/* 
+button.ql-header,
+div.quill,
+.ql-toolbar {
+  background-color: white !important;
+} */
+
+/* .ql-editor {
+  background-color: #383838 !important;
+} */
+
+/* .ql-blank {
+  color: whitesmoke !important;
+} */
+
+.card:hover,
+.staff-card:hover {
+  transform: scale(1.03) !important;
+  /* opacity: 1; */
+}
+
+.icons {
+  font-size: 6rem;
+  color: #ffffff;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+}
+
+.services-icons {
+  font-size: 20px !important;
+  color: #ffffff;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+}
+
+.categoryTitle {
+  font-size: 1.5rem !important;
+  font-weight: bold !important;
+  font-stretch: normal !important;
+  font-style: normal !important;
+  line-height: 1.11 !important;
+  letter-spacing: normal !important;
+  color: #ffffff !important;
+}
+/* Properties for Staff-Portal Page and Buttons */
+
+.staff-portal-bg-image {
+  background-image: url("../images/distributors.jpeg");
+  background-size: cover;
+  min-height: 400px;
+}
+
+#staff-btn-manage {
+  background-color: #228b22;
+}
+
+#write-btn {
+  background-color: darkred;
+}
+
+#create-btn {
+  background-color: #8d54b5;
+}
+
+.staff-btns {
+  color: #ffffff;
+  height: 50px;
+  width: 250px;
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out !important;
+}
+.staff-btns:hover {
+  transform: scale(1.03) !important;
+}
+.staff-portal-row {
+  margin-bottom: 80px;
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 30px;
+  display: flex;
+}
+
+/* 
+Footer styles */
+
+.footer-wrapper {
+  border-top: solid 1px #c4c4c4 !important;
+  position: relative !important;
+  left: 0 !important;
+  bottom: 0 !important;
+  right: 0 !important;
+  background-color: white;
+}
+
+.footer-container {
+  /* margin: 1rem 1rem !important; */
+  color: whitesmoke;
+}
+
+a.footer-links:visited,
+a.footer-links:hover,
+a.footer-links:link {
+  color: #383838 !important;
+  text-decoration: none !important;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  font-size: 14px;
+}
+
+/* Footer */
+.footer-items {
+  line-height: 0.85;
+  cursor: pointer;
+  color: #383838;
+}
+
+.footer-items:hover {
+  color: #383838;
+  font-weight: 400;
+}
+
+#footer-links a {
+  text-decoration: none !important;
+  color: #383838;
+  font-weight: 300;
+}
+
+p.staff-signin {
+  font-size: 0.85rem;
+  color: blue;
+}
+
+h6.title {
+  font-weight: 700;
+  color: #383838;
+}
+
+/* Sign in and Register pages  */
+
+.auth-box {
+  width: 290px;
+  height: 350px;
+  padding: 10px;
+  margin: 30px 0px;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.signinPage {
+  background-image: url("../images/coderconnectbg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.nprogress-busy {
+  color: #8d54b5 !important;
+}
+
+/* Veterans Form Page  */
+.vetjobs-row {
+  margin-top: 5rem;
+  padding: 20px;
+  padding-bottom: 100px;
+}
+
+input > form.vet-form {
+  border-radius: 10px;
+}
+/* 
+.landing-page-parnterBtns { */
+/* bottom: 10; 
+ margin:0;
+ left:10;  */
+/* -ms-transform: translateY(-50%);
+  transform: translateY(-50%); */
+/* } */
+/* Veterans ATS Page */
+
+.vetATSCards {
+  margin: 0.75rem 0.25rem !important;
+  font-weight: bold !important;
+  height: auto !important;
+  width: auto !important;
+  background-color: #ffffff !important;
+  color: #383838;
+  border-radius: 5px !important;
+  position: relative;
+  transition: all 0.2s ease-in-out !important;
+  opacity: 0.75;
+}
+
+.vetATSCards:hover {
+  transform: scale(1.01) !important;
+  opacity: 1;
+}
+
+#vetCardTime {
+  font-size: 0.78rem !important;
+  font-weight: 600 !important;
+}
+
+/* Forms Styles */
+input.formStyles {
+  border: "solid #383838 .75px" !important;
+  border-radius: 5 !important;
+  margin-left: 5 !important;
+  margin-right: 3 !important;
+  padding-left: 8 !important;
+}
+
+/* State Multi Select on Retailers page */
+
+.multi-select {
+  color: #383838 !important;
+  --rmsc-main: #4285f4;
+  --rmsc-hover: #383838;
+  --rmsc-selected: #e2e6ea;
+  --rmsc-border: #ccc;
+  --rmsc-gray: #aaa;
+  --rmsc-bg: #383838;
+  --rmsc-p: 10px; /* Spacing */
+  --rmsc-radius: 4px; /* Radius */
+  --rmsc-h: 38px; /* Height */
+}
+
+/* Single Blog page */
+
+.featured-image {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+}
+
+@media (max-width: 770px) {
+  body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .signout {
+    margin-left: 10px;
+  }
+}
